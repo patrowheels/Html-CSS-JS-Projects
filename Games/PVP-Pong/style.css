@@ -1,1 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Bebas+Neue&family=Roboto:wght@100&family=Shojumaru&family=Staatliches&display=swap');
 
+
+body{
+  background: #000000;
+}
+
+#title{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Shojumaru', sans-serif;
+  margin-top: 0;
+}
+#p1score{
+  color: red;
+  display: inline-block;
+  margin-left: 20%
+}
+
+#p2score{
+  color: red;
+  float: right;
+  margin-right: 20%
+}
+
+#player-area{
+  display: block;
+  background-color: red;
+  border-top: 20px solid blue;
+  border-bottom: 20px solid blue;
+  border-left: 20px solid blue;
+  border-right: 20px solid blue;
+  margin: auto;
+  border-radius: 10%
+}
