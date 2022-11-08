@@ -1,1 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
+#pacman{
+position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 100px;
+        width: 200px;
+        border-radius: 150px 150px 0 0;
+        background-color: yellow;
+        transform: rotate(0deg); 
+        animation: rainbowblock  .3s linear infinite, spin .3s linear infinite;
+      
+        
+}
+
+#pacman1{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: yellow;
+    transform: rotate(180deg); 
+    animation: rainbowblock  .3s linear infinite, spinning .3s linear infinite;
+}
+
+/* key frames help our sprite move */
+@keyframes spin{
+    from {transform: rotate(0deg);}
+  to {transform: rotate(-40deg)}
+  from {transform: rotate(-40deg);}
+  to {transform: rotate(0deg)}
+}
+
+@keyframes spinning{
+    from {transform: rotate(180deg)}
+  to {transform: rotate(220deg)}
+  from {transform: rotate(220deg);}
+  to {transform: rotate(180deg)}
+}
+
+@keyframes rainbowblock{
+  0%   {background: red; }
+  25%  {background: yellow; }
+  50%  {background: blue; }
+  75%  {background: green; }
+  100% {background: red; }
+}
+
+#square{
+  top: 55%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: rotate1 1s infinite;
+  
+}
+
+@keyframes  rotate1{
+/*   from {transform: rotate(0deg);}
+  to {transform: rotate(360deg)} */
+  from {left:90%;}
+  to {left:45%;}
+}
+
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+} */
+
+/* @keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+} */
