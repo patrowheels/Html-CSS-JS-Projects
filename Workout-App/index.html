@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--  -->
+    <video autoplay muted loop id="myVideo">
+      <source src="https://player.vimeo.com/external/496682107.sd.mp4?s=8c64a97bd21c2a2cee54c7b04c267f0be9b43521&profile_id=164&oauth2_token_id=57447761"
+      type="video/mp4">
+    </video>
+    <button id="myBtn" class="content" onclick="myFunction()">Pause</button>
+    <div id="header">Mountain Crawl</div>
+<div  id="display-window">WORK OUT</div>
+<button class="content" id="timer_button">Timer</button>
+<button id="rest_button" style="right:0;" onclick=rest()>start/rest</button>
+
+	<script src="script.js"></script>
+  <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+  </body>
+</html>
