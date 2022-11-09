@@ -1,0 +1,92 @@
+body{
+    margin-top:20px;
+  }
+  
+  .content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #timer_button{
+    margin-top: 30px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    top: 82%;
+    left:33%;
+    width: 30%;
+    font-size: 40px;
+  }
+  
+  #header{
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 50%;
+    left: 20%;
+    right: auto;
+    text-align: center;
+    font-size: 350%;
+    padding: 30px;
+  }
+
+  #rest_button{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    top: 80%;
+    left:33%;
+    width: 30%;
+    height: auto;
+    font-size: 40px;
+  }
+  
+  #display-window{
+    display: block;
+    width: 50%;
+    position: fixed;
+    left: 20%;
+    top:7%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom:auto;
+    text-align: center;
+    font-size: 220%;
+    padding: 30px;
+    font-weight: 800;
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+
+
+}
