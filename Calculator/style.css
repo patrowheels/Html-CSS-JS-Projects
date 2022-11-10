@@ -1,0 +1,77 @@
+#container{
+    background-color: purple;
+    width: 20%;
+    height: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
+  
+  #number_container{
+    position: relative;
+    font-size:3vw;
+    background-color: #5FCD4B;
+    width: auto;
+    height: 85px;
+    border: 2px solid black;
+  }
+  
+  #text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+  }
+  
+  .symbols{
+    position: relative;
+    background-color: gold;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+  }
+  
+  .numbers{
+    position: relative;
+    font-size: 25px;
+    background-color: #8CEAF0;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+  }
+  
+  .txt{
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+  }
+  
+  .row{
+    display: flex;
+    flex: row;
+  }
+  
+  /* this body tag grabs the whole web page */
+  body{
+    text-align: center;
+  }
+  
+  #calculator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-size: 50px;
+    color: #5FCD4B;
+    border-bottom: 4px solid black;
+    text-shadow:
+  -3px 0px 0px black,
+  1px 0px 0px black,
+  0px -1px 0px black,
+  0px 1px 0px black;
+  }
+  
+  #zero{
+    width: 142px
+  }
