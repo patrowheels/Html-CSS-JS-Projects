@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+  <body>
+<div id = 'section'>
+    <h2>Hangman Game</h2>
+    </br>
+  <b>Instructions</b>
+  </br>
+    • Click the ‘Reset/Start Game’ button </br>
+    • A hidden word will appear under Secret Word. Your goal is to figure out the word by guessing different letters. If you guess a correct letter it will show up. </br>
+    • Make a guess by clicking the ‘Make a Guess’ button. You can only guess 1 character at a time. </br>
+</div>
+  </br>
+    <div id = 'section'>
+      <button onclick="startGame()" id="button">Start Game / Reset
+      </button>
+      <button onclick="makeGuess()" id="button">Make a Guess
+      </button>
+      <h4>Guesses</h4>
+      <p class = "code" id = "guesses"> ( press Start game)
+      </p>
+    <h4>Secret Word</h4>
+    <p class = "code" id = "word"> (press start game)</p>
+  </div>
+
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+
+
+</html>
