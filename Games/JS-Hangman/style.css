@@ -1,0 +1,15 @@
+body {
+  background-color: #e06426;
+}
+p.code {
+    font-family: "Courier New", Times, serif;
+}
+h2
+{
+   margin: 0px;
+}
+#section {
+    padding: 20px;
+    background-color: #FFFFFF;
+    text-align:center;
+}
